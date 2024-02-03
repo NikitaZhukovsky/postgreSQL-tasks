@@ -10,14 +10,14 @@ create table employees (
 -- Task 2
 insert into employees (Name, Position, Department, Salary)
   values ('Ilya', 'Manager', 'Sales', 5200), 
-   	     ('Pavel', 'Administrator', 'Support', 1000), 
+   	 ('Pavel', 'Administrator', 'Support', 1000), 
          ('Maria', 'Programmer', 'Development', 5300),
          ('Igor', 'Administrator', 'Sales', 900);
     
 -- Task 3
 update employees 
 set Position = 'Manager'
-where name='Igor';
+where name = 'Igor';
 
 -- Task 4
 alter table employees
