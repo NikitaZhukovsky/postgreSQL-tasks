@@ -120,7 +120,7 @@ having sum(sales.quantity) = (
         inner join books on authors.id = books.author_id
         inner join sales on books.id = sales.book_id
         group by authors.id
-    ) as author_sales
+    )
 );
 
 select books.title, sales.quantity
